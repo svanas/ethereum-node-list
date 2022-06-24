@@ -10,7 +10,7 @@ While most dapps rely on [MetaMask](https://metamask.io) or another wallet provi
 
 This repo contains the Ethereum node list, and client implementations for working with the node list.
 
-[Nethereum](https://nethereum.com) and [Delphereum](https://github.com/svanas/delphereum)-made dapps can pull the raw list here. Users of such dapps can select preferred gateways as initial discovery. In case of failure and based on priority, the dapp should select the gateway from the list with the lowest latency.
+[Nethereum](https://nethereum.com) and [Delphereum](https://github.com/svanas/delphereum)-made dapps can pull the raw list [here](https://raw.githubusercontent.com/svanas/ethereum-node-list/main/ethereum-node-list.json). Users of such dapps can select preferred gateways as initial discovery. In case of failure and based on priority, the dapp should select the gateway from the list with the lowest latency.
 
 We hope to continue iterating and improving the Ethereum node list in collaboration with the broader community. If a new RPC gateway is released by a reputable team, the community can [open a PR](https://github.com/svanas/ethereum-node-list/pulls) and update the list. Any dapp subscribed to the list can automatically import it in real time.
 
