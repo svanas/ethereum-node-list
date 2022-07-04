@@ -1,404 +1,328 @@
 {
-    "name": "Ethereum node list",
     "version": {
         "major": 1,
         "minor": 0,
         "patch": 0
     },
-    "nodes": [
+    "chains": [
         {
-            "name": "Rivet",
-            "url": "https://rivet.cloud/",
-            "chains": [
+            "id": 1,
+            "nodes": [
                 {
-                    "id": 1,
-                    "endpoint": {
-                        "https": "https://$apiKey.eth.rpc.rivet.cloud/",
-                        "wss": "wss://$apiKey.eth.ws.rivet.cloud/"
-                    }
+                    "name": "Rivet",
+                    "rpc": "https://$apiKey.eth.rpc.rivet.cloud/",
+                    "wss": "wss://$apiKey.eth.ws.rivet.cloud/"
                 },
                 {
-                    "id": 3,
-                    "endpoint": {
-                        "https": "https://$apiKey.ropsten.rpc.rivet.cloud/",
-                        "wss": "wss://$apiKey.ropsten.ws.rivet.cloud/"
-                    }
+                    "name": "Alchemy",
+                    "rpc": "https://eth-mainnet.g.alchemy.com/v2/$apiKey",
+                    "wss": "wss://eth-mainnet.g.alchemy.com/v2/$apiKey"
                 },
                 {
-                    "id": 4,
-                    "endpoint": {
-                        "https": "https://$apiKey.rinkeby.rpc.rivet.cloud/",
-                        "wss": "wss://$apiKey.rinkeby.ws.rivet.cloud/"
-                    }
+                    "name": "Infura",
+                    "rpc": "https://mainnet.infura.io/v3/$apiKey",
+                    "wss": "wss://mainnet.infura.io/ws/v3/$apiKey"
                 },
                 {
-                    "id": 5,
-                    "endpoint": {
-                        "https": "https://$apiKey.goerli.rpc.rivet.cloud/",
-                        "wss": "wss://$apiKey.goerli.ws.rivet.cloud/"
-                    }
+                    "name": "Moralis",
+                    "rpc": "https://speedy-nodes-nyc.moralis.io/$apiKey/eth/mainnet"
+                },
+                {
+                    "name": "Flashbots Protect",
+                    "rpc": "https://rpc.flashbots.net"
+                },
+                {
+                    "name": "Pocket Network",
+                    "rpc": "https://eth-mainnet.gateway.pokt.network/v1/lb/$apiKey"
+                },
+                {
+                    "name": "Cloudflare",
+                    "rpc": "https://cloudflare-eth.com/"
+                },
+                {
+                    "name": "LinkPool",
+                    "rpc": "https://main-light.eth.linkpool.io",
+                    "wss": "wss://main-light.eth.linkpool.io/ws"
                 }
             ]
         },
         {
-            "name": "Alchemy",
-            "url": "https://www.alchemy.com/",
-            "chains": [
+            "id": 3,
+            "nodes": [
                 {
-                    "id": 1,
-                    "endpoint": {
-                        "https": "https://eth-mainnet.alchemyapi.io/v2/$apiKey",
-                        "wss": "wss://eth-mainnet.ws.alchemyapi.io/v2/$apiKey"
-                    }
+                    "name": "Rivet",
+                    "rpc": "https://$apiKey.ropsten.rpc.rivet.cloud/",
+                    "wss": "wss://$apiKey.ropsten.ws.rivet.cloud/"
                 },
                 {
-                    "id": 3,
-                    "endpoint": {
-                        "https": "https://eth-ropsten.alchemyapi.io/v2/$apiKey",
-                        "wss": "wss://eth-ropsten.ws.alchemyapi.io/v2/$apiKey"
-                    }
+                    "name": "Alchemy",
+                    "rpc": "https://eth-ropsten.g.alchemy.com/v2/$apiKey",
+                    "wss": "wss://eth-ropsten.g.alchemy.com/v2/$apiKey"
                 },
                 {
-                    "id": 4,
-                    "endpoint": {
-                        "https": "https://eth-rinkeby.alchemyapi.io/v2/$apiKey",
-                        "wss": "wss://eth-rinkeby.ws.alchemyapi.io/v2/$apiKey"
-                    }
+                    "name": "Infura",
+                    "rpc": "https://ropsten.infura.io/v3/$apiKey",
+                    "wss": "wss://ropsten.infura.io/ws/v3/$apiKey"
                 },
                 {
-                    "id": 42,
-                    "endpoint": {
-                        "https": "https://eth-kovan.alchemyapi.io/v2/$apiKey",
-                        "wss": "wss://eth-kovan.ws.alchemyapi.io/v2/$apiKey"
-                    }
-                },
-                {
-                    "id": 5,
-                    "endpoint": {
-                        "https": "https://eth-goerli.alchemyapi.io/v2/$apiKey",
-                        "wss": "wss://eth-goerli.ws.alchemyapi.io/v2/$apiKey"
-                    }
-                },
-                {
-                    "id": 10,
-                    "endpoint": {
-                        "https": "https://opt-mainnet.g.alchemy.com/v2/$apiKey",
-                        "wss": "wss://opt-mainnet.g.alchemy.com/v2/$apiKey"
-                    }
-                },
-                {
-                    "id": 69,
-                    "endpoint": {
-                        "https": "https://opt-kovan.g.alchemy.com/v2/$apiKey",
-                        "wss": "wss://opt-kovan.g.alchemy.com/v2/$apiKey"
-                    }
-                },
-                {
-                    "id": 137,
-                    "endpoint": {
-                        "https": "https://polygon-mainnet.g.alchemy.com/v2/$apiKey",
-                        "wss": "wss://polygon-mainnet.g.alchemy.com/v2/$apiKey"
-                    }
-                },
-                {
-                    "id": 80001,
-                    "endpoint": {
-                        "https": "https://polygon-mumbai.g.alchemy.com/v2/$apiKey",
-                        "wss": "wss://polygon-mumbai.g.alchemy.com/v2/$apiKey"
-                    }
-                },
-                {
-                    "id": 42161,
-                    "endpoint": {
-                        "https": "https://arb-mainnet.g.alchemy.com/v2/$apiKey",
-                        "wss": "wss://arb-mainnet.g.alchemy.com/v2/$apiKey"
-                    }
-                },
-                {
-                    "id": 421611,
-                    "endpoint": {
-                        "https": "https://arb-rinkeby.g.alchemy.com/v2/$apiKey",
-                        "wss": "wss://arb-rinkeby.g.alchemy.com/v2/$apiKey"
-                    }
+                    "name": "Pocket Network",
+                    "rpc": "https://eth-ropsten.gateway.pokt.network/v1/lb/$apiKey"
                 }
             ]
         },
         {
-            "name": "Infura",
-            "url": "https://infura.io/",
-            "chains": [
+            "id": 4,
+            "nodes": [
                 {
-                    "id": 1,
-                    "endpoint": {
-                        "https": "https://mainnet.infura.io/v3/$apiKey",
-                        "wss": "wss://mainnet.infura.io/ws/v3/$apiKey"
-                    }
+                    "name": "Rivet",
+                    "rpc": "https://$apiKey.rinkeby.rpc.rivet.cloud/",
+                    "wss": "wss://$apiKey.rinkeby.ws.rivet.cloud/"
                 },
                 {
-                    "id": 3,
-                    "endpoint": {
-                        "https": "https://ropsten.infura.io/v3/$apiKey",
-                        "wss": "wss://ropsten.infura.io/ws/v3/$apiKey"
-                    }
+                    "name": "Alchemy",
+                    "rpc": "https://eth-rinkeby.g.alchemy.com/v2/$apiKey",
+                    "wss": "wss://eth-rinkeby.g.alchemy.com/v2/$apiKey"
                 },
                 {
-                    "id": 4,
-                    "endpoint": {
-                        "https": "https://rinkeby.infura.io/v3/$apiKey",
-                        "wss": "wss://rinkeby.infura.io/ws/v3/$apiKey"
-                    }
+                    "name": "Infura",
+                    "rpc": "https://rinkeby.infura.io/v3/$apiKey",
+                    "wss": "wss://rinkeby.infura.io/ws/v3/$apiKey"
                 },
                 {
-                    "id": 42,
-                    "endpoint": {
-                        "https": "https://kovan.infura.io/v3/$apiKey",
-                        "wss": "wss://kovan.infura.io/ws/v3/$apiKey"
-                    }
+                    "name": "Pocket Network",
+                    "rpc": "https://eth-rinkeby.gateway.pokt.network/v1/lb/$apiKey"
                 },
                 {
-                    "id": 5,
-                    "endpoint": {
-                        "https": "https://goerli.infura.io/v3/$apiKey",
-                        "wss": "wss://goerli.infura.io/ws/v3/$apiKey"
-                    }
-                },
-                {
-                    "id": 10,
-                    "endpoint": {
-                        "https": "https://optimism-mainnet.infura.io/v3/$apiKey"
-                    }
-                },
-                {
-                    "id": 69,
-                    "endpoint": {
-                        "https": "https://optimism-kovan.infura.io/v3/$apiKey"
-                    }
-                },
-                {
-                    "id": 137,
-                    "endpoint": {
-                        "https": "https://polygon-mainnet.infura.io/v3/$apiKey"
-                    }
-                },
-                {
-                    "id": 80001,
-                    "endpoint": {
-                        "https": "https://polygon-mumbai.infura.io/v3/$apiKey"
-                    }
-                },
-                {
-                    "id": 42161,
-                    "endpoint": {
-                        "https": "https://arbitrum-mainnet.infura.io/v3/$apiKey"
-                    }
-                },
-                {
-                    "id": 421611,
-                    "endpoint": {
-                        "https": "https://arbitrum-rinkeby.infura.io/v3/$apiKey"
-                    }
+                    "name": "LinkPool",
+                    "rpc": "https://rinkeby-light.eth.linkpool.io",
+                    "wss": "wss://rinkeby-light.eth.linkpool.io/ws"
                 }
             ]
         },
         {
-            "name": "Moralis",
-            "url": "https://moralis.io/",
-            "chains": [
+            "id": 42,
+            "nodes": [
                 {
-                    "id": 1,
-                    "endpoint": {
-                        "https": "https://speedy-nodes-nyc.moralis.io/$apiKey/eth/mainnet"
-                    }
+                    "name": "Alchemy",
+                    "rpc": "https://eth-kovan.g.alchemy.com/v2/$apiKey",
+                    "wss": "wss://eth-kovan.g.alchemy.com/v2/$apiKey"
                 },
                 {
-                    "id": 56,
-                    "endpoint": {
-                        "https": "https://speedy-nodes-nyc.moralis.io/$apiKey/bsc/mainnet"
-                    }
+                    "name": "Infura",
+                    "rpc": "https://kovan.infura.io/v3/$apiKey",
+                    "wss": "wss://kovan.infura.io/ws/v3/$apiKey"
                 },
                 {
-                    "id": 137,
-                    "endpoint": {
-                        "https": "https://speedy-nodes-nyc.moralis.io/$apiKey/polygon/mainnet"
-                    }
-                },
-                {
-                    "id": 250,
-                    "endpoint": {
-                        "https": "https://speedy-nodes-nyc.moralis.io/$apiKey/fantom/mainnet"
-                    }
-                },
-                {
-                    "id": 43114,
-                    "endpoint": {
-                        "https": "https://speedy-nodes-nyc.moralis.io/$apiKey/avalanche/mainnet"
-                    }
+                    "name": "Pocket Network",
+                    "rpc": "https://poa-kovan.gateway.pokt.network/v1/lb/$apiKey"
                 }
             ]
         },
         {
-            "name": "Flashbots Protect",
-            "url": "https://docs.flashbots.net/",
-            "chains": [
+            "id": 5,
+            "nodes": [
                 {
-                    "id": 1,
-                    "endpoint": {
-                        "https": "https://rpc.flashbots.net"
-                    }
+                    "name": "Rivet",
+                    "rpc": "https://$apiKey.goerli.rpc.rivet.cloud/",
+                    "wss": "wss://$apiKey.goerli.ws.rivet.cloud/"
                 },
                 {
-                    "id": 5,
-                    "endpoint": {
-                        "https": "https://rpc-goerli.flashbots.net"
-                    }
+                    "name": "Alchemy",
+                    "rpc": "https://eth-goerli.g.alchemy.com/v2/$apiKey",
+                    "wss": "wss://eth-goerli.g.alchemy.com/v2/$apiKey"
+                },
+                {
+                    "name": "Infura",
+                    "rpc": "https://goerli.infura.io/v3/$apiKey",
+                    "wss": "wss://goerli.infura.io/ws/v3/$apiKey"
+                },
+                {
+                    "name": "Flashbots Protect",
+                    "rpc": "https://rpc-goerli.flashbots.net"
+                },
+                {
+                    "name": "Pocket Network",
+                    "rpc": "https://eth-goerli.gateway.pokt.network/v1/lb/$apiKey"
+                },
+                {
+                    "name": "LinkPool",
+                    "rpc": "https://goerli-light.eth.linkpool.io",
+                    "wss": "wss://goerli-light.eth.linkpool.io/ws"
                 }
             ]
         },
         {
-            "name": "Pocket Network",
-            "url": "https://www.pokt.network/",
-            "chains": [
+            "id": 10,
+            "nodes": [
                 {
-                    "id": 1,
-                    "endpoint": {
-                        "https": "https://eth-mainnet.gateway.pokt.network/v1/lb/$apiKey"
-                    }
+                    "name": "Alchemy",
+                    "rpc": "https://opt-mainnet.g.alchemy.com/v2/$apiKey",
+                    "wss": "wss://opt-mainnet.g.alchemy.com/v2/$apiKey"
                 },
                 {
-                    "id": 3,
-                    "endpoint": {
-                        "https": "https://eth-ropsten.gateway.pokt.network/v1/lb/$apiKey"
-                    }
+                    "name": "Infura",
+                    "rpc": "https://optimism-mainnet.infura.io/v3/$apiKey"
                 },
                 {
-                    "id": 4,
-                    "endpoint": {
-                        "https": "https://eth-rinkeby.gateway.pokt.network/v1/lb/$apiKey"
-                    }
-                },
-                {
-                    "id": 42,
-                    "endpoint": {
-                        "https": "https://poa-kovan.gateway.pokt.network/v1/lb/$apiKey"
-                    }
-                },
-                {
-                    "id": 5,
-                    "endpoint": {
-                        "https": "https://eth-goerli.gateway.pokt.network/v1/lb/$apiKey"
-                    }
-                },
-                {
-                    "id": 10,
-                    "endpoint": {
-                        "https": "https://optimism-mainnet.gateway.pokt.network/v1/lb/$apiKey"
-                    }
-                },
-                {
-                    "id": 56,
-                    "endpoint": {
-                        "https": "https://bsc-mainnet.gateway.pokt.network/v1/lb/$apiKey"
-                    }
-                },
-                {
-                    "id": 100,
-                    "endpoint": {
-                        "https": "https://poa-xdai.gateway.pokt.network/v1/lb/$apiKey"
-                    }
-                },
-                {
-                    "id": 137,
-                    "endpoint": {
-                        "https": "https://poly-mainnet.gateway.pokt.network/v1/lb/$apiKey"
-                    }
-                },
-                {
-                    "id": 250,
-                    "endpoint": {
-                        "https": "https://fantom-mainnet.gateway.pokt.network/v1/lb/$apiKey"
-                    }
-                },
-                {
-                    "id": 43114,
-                    "endpoint": {
-                        "https": "https://avax-mainnet.gateway.pokt.network/v1/lb/$apiKey"
-                    }
+                    "name": "Pocket Network",
+                    "rpc": "https://optimism-mainnet.gateway.pokt.network/v1/lb/$apiKey"
                 }
             ]
         },
         {
-            "name": "LinkPool",
-            "url": "https://linkpool.io/",
-            "chains": [
+            "id": 56,
+            "nodes": [
                 {
-                    "id": 1,
-                    "endpoint": {
-                        "https": "https://main-light.eth.linkpool.io",
-                        "wss": "wss://main-light.eth.linkpool.io/ws"
-                    }
+                    "name": "Binance",
+                    "rpc": "https://bsc-dataseed.binance.org"
                 },
                 {
-                    "id": 4,
-                    "endpoint": {
-                        "https": "https://rinkeby-light.eth.linkpool.io",
-                        "wss": "wss://rinkeby-light.eth.linkpool.io/ws"
-                    }
+                    "name": "Moralis",
+                    "rpc": "https://speedy-nodes-nyc.moralis.io/$apiKey/bsc/mainnet"
                 },
                 {
-                    "id": 5,
-                    "endpoint": {
-                        "https": "https://goerli-light.eth.linkpool.io",
-                        "wss": "wss://goerli-light.eth.linkpool.io/ws"
-                    }
+                    "name": "Pocket Network",
+                    "rpc": "https://bsc-mainnet.gateway.pokt.network/v1/lb/$apiKey"
                 }
             ]
         },
         {
-            "name": "Binance",
-            "url": "https://www.bnbchain.org/",
-            "chains": [
+            "id": 69,
+            "nodes": [
                 {
-                    "id": 56,
-                    "endpoint": {
-                        "https": "https://bsc-dataseed.binance.org"
-                    }
+                    "name": "Alchemy",
+                    "rpc": "https://opt-kovan.g.alchemy.com/v2/$apiKey",
+                    "wss": "wss://opt-kovan.g.alchemy.com/v2/$apiKey"
                 },
                 {
-                    "id": 97,
-                    "endpoint": {
-                        "https": "https://data-seed-prebsc-1-s1.binance.org:8545"
-                    }
+                    "name": "Infura",
+                    "rpc": "https://optimism-kovan.infura.io/v3/$apiKey"
                 }
             ]
         },
         {
-            "name": "Gnosis",
-            "url": "https://www.gnosischain.com/",
-            "chains": [
+            "id": 97,
+            "nodes": [
                 {
-                    "id": 100,
-                    "endpoint": {
-                        "https": "https://rpc.gnosischain.com",
-                        "wss": "wss://rpc.gnosischain.com/wss"
-                    }
+                    "name": "Binance",
+                    "rpc": "https://data-seed-prebsc-1-s1.binance.org:8545"
                 }
             ]
         },
         {
-            "name": "Fantom",
-            "url": "https://fantom.foundation/",
-            "chains": [
+            "id": 100,
+            "nodes": [
                 {
-                    "id": 250,
-                    "endpoint": {
-                        "https": "https://rpc.ftm.tools"
-                    }
+                    "name": "Gnosis",
+                    "rpc": "https://rpc.gnosischain.com",
+                    "wss": "wss://rpc.gnosischain.com/wss"
                 },
                 {
-                    "id": 4002,
-                    "endpoint": {
-                        "https": "https://rpc.testnet.fantom.network"
-                    }
+                    "name": "Pocket Network",
+                    "rpc": "https://poa-xdai.gateway.pokt.network/v1/lb/$apiKey"
+                }
+            ]
+        },
+        {
+            "id": 137,
+            "nodes": [
+                {
+                    "name": "Alchemy",
+                    "rpc": "https://polygon-mainnet.g.alchemy.com/v2/$apiKey",
+                    "wss": "wss://polygon-mainnet.g.alchemy.com/v2/$apiKey"
+                },
+                {
+                    "name": "Infura",
+                    "rpc": "https://polygon-mainnet.infura.io/v3/$apiKey"
+                },
+                {
+                    "name": "Moralis",
+                    "rpc": "https://speedy-nodes-nyc.moralis.io/$apiKey/polygon/mainnet"
+                },
+                {
+                    "name": "Pocket Network",
+                    "rpc": "https://poly-mainnet.gateway.pokt.network/v1/lb/$apiKey"
+                }
+            ]
+        },
+        {
+            "id": 250,
+            "nodes": [
+                {
+                    "name": "Fantom Foundation",
+                    "rpc": "https://rpc.ftm.tools"
+                },
+                {
+                    "name": "Moralis",
+                    "rpc": "https://speedy-nodes-nyc.moralis.io/$apiKey/fantom/mainnet"
+                },
+                {
+                    "name": "Pocket Network",
+                    "rpc": "https://fantom-mainnet.gateway.pokt.network/v1/lb/$apiKey"
+                }
+            ]
+        },
+        {
+            "id": 4002,
+            "nodes": [
+                {
+                    "name": "Fantom Foundation",
+                    "rpc": "https://rpc.testnet.fantom.network"
+                }
+            ]
+        },
+        {
+            "id": 43114,
+            "nodes": [
+                {
+                    "name": "Moralis",
+                    "rpc": "https://speedy-nodes-nyc.moralis.io/$apiKey/avalanche/mainnet"
+                },
+                {
+                    "name": "Pocket Network",
+                    "rpc": "https://avax-mainnet.gateway.pokt.network/v1/lb/$apiKey"
+                }
+            ]
+        },
+        {
+            "id": 42161,
+            "nodes": [
+                {
+                    "name": "Alchemy",
+                    "rpc": "https://arb-mainnet.g.alchemy.com/v2/$apiKey",
+                    "wss": "wss://arb-mainnet.g.alchemy.com/v2/$apiKey"
+                },
+                {
+                    "name": "Infura",
+                    "rpc": "https://arbitrum-mainnet.infura.io/v3/$apiKey"
+                }
+            ]
+        },
+        {
+            "id": 80001,
+            "nodes": [
+                {
+                    "name": "Alchemy",
+                    "rpc": "https://polygon-mumbai.g.alchemy.com/v2/$apiKey",
+                    "wss": "wss://polygon-mumbai.g.alchemy.com/v2/$apiKey"
+                },
+                {
+                    "name": "Infura",
+                    "rpc": "https://polygon-mumbai.infura.io/v3/$apiKey"
+                }
+            ]
+        },
+        {
+            "id": 421611,
+            "nodes": [
+                {
+                    "name": "Alchemy",
+                    "rpc": "https://arb-rinkeby.g.alchemy.com/v2/$apiKey",
+                    "wss": "wss://arb-rinkeby.g.alchemy.com/v2/$apiKey"
+                },
+                {
+                    "name": "Infura",
+                    "rpc": "https://arbitrum-rinkeby.infura.io/v3/$apiKey"
                 }
             ]
         }
