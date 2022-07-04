@@ -6,11 +6,11 @@ The Ethereum node list is a community-led initiative to improve discoverability 
 
 As the Ethereum ecosystem continues to evolve, we continue to see growth in the number of RPC gateways. This maturation reflects the success of permissionless innovation.
 
-While most dapps rely on [MetaMask](https://metamask.io) or another wallet provider to connect them to the Ethereum blockchain, not every dapp has this luxury. [Nethereum](https://nethereum.com) and [Delphereum](https://github.com/svanas/delphereum)-made dapps, for example, need to decide what RPC endpoint to connect to. Hardcoding this piece of information is undesirable. RPC gateways can disappear or be offline at any given moment. Such dapps will want to enumerate over all available RPC gateways, allow the user to select a few preferred gateways, and select the one with the lowest latency.
+While most dapps rely on a browser-based wallet provider to connect them to the Ethereum blockchain, not every dapp has this luxury. Desktop and mobile dapps, for example, need to decide what RPC endpoint to connect to. Hardcoding this piece of information is undesirable. RPC gateways can disappear or be offline at any given moment. Such dapps will want to enumerate over all available RPC gateways, allow the user to select a few preferred gateways, and select the one with the lowest latency.
 
 This repo contains the Ethereum node list, and client implementations for working with the node list.
 
-[Nethereum](https://nethereum.com) and [Delphereum](https://github.com/svanas/delphereum)-made dapps can pull the raw list [here](https://raw.githubusercontent.com/svanas/ethereum-node-list/main/ethereum-node-list.json). Users of such dapps can select preferred gateways as initial discovery. In case of failure and based on priority, the dapp should select the gateway from the list with the lowest latency.
+Desktop and mobile dapps can pull the raw list [here](https://raw.githubusercontent.com/svanas/ethereum-node-list/main/ethereum-node-list.json). Users of such dapps can select preferred gateways as initial discovery. In case of failure and based on priority, the dapp should select the gateway from the list with the lowest latency.
 
 We hope to continue iterating and improving the Ethereum node list in collaboration with the broader community. If a new RPC gateway is released by a reputable team, the community can [open a PR](https://github.com/svanas/ethereum-node-list/pulls) and update the list. Any dapp subscribed to the list can automatically import it in real time.
 
