@@ -34,7 +34,7 @@ A big thanks to these other options for existing. They each paved the way to mak
 
 * David Mihal's [ethereumnodes.com](https://ethereumnodes.com/)
 * Ardian Luma's [awesome-list-rpc-nodes-providers](https://github.com/arddluma/awesome-list-rpc-nodes-providers)
-* DeFi Llama's [RPCs](https://raw.githubusercontent.com/DefiLlama/chainlist/844277a44d6c8c9bff5d2e75e7de20ee010317f0/constants/extraRpcs.json) (beware, includes hard-coded API keys)
+* DeFi Llama's [chainlist](https://github.com/DefiLlama/chainlist/blob/main/constants/extraRpcs.json)
 
 ## Acknowledgement
 
