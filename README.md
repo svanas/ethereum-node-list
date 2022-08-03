@@ -28,10 +28,18 @@ Changing a chain ID or an andpoint is considered both a remove and an add, and s
 
 Note that list versioning is used to improve the user experience, but not for security, i.e. list versions are not meant to provide protection against malicious updates to the node list; i.e. the list semver is used as a lossy compression of the diff of list updates. List updates may still be diffed in the dapp.
 
+## Other sources
+
+A big thanks to these other options for existing. They each paved the way to make Ethereum nodes discoverable.
+
+* David Mihal's [ethereumnodes.com](https://ethereumnodes.com/)
+* Ardian Luma's [awesome-list-rpc-nodes-providers](https://github.com/arddluma/awesome-list-rpc-nodes-providers)
+* DeFi Llama's [chainlist](https://github.com/DefiLlama/chainlist/blob/main/constants/extraRpcs.json)
+
 ## Acknowledgement
 
 Special thanks to [Juan Blanco](https://github.com/juanfranblanco) for his help on this initiative.
 
-## Diclaimer
+## Disclaimer
 
 The Ethereum node list is provided free to charge. There is no warranty and no independent audit has been or will be commissioned. You are encouraged to read the list and decide for yourself whether it is secure. The authors do not assume any responsibility for bugs, vulnerabilities, or any other technical defects.
