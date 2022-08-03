@@ -313,16 +313,16 @@
             ]
         },
         {
-            "id": 421611,
+            "id": 421613,
             "nodes": [
                 {
                     "name": "Alchemy",
-                    "rpc": "https://arb-rinkeby.g.alchemy.com/v2/$apiKey",
-                    "wss": "wss://arb-rinkeby.g.alchemy.com/v2/$apiKey"
+                    "rpc": "https://arb-goerli.g.alchemy.com/v2/$apiKey",
+                    "wss": "wss://arb-goerli.g.alchemy.com/v2/$apiKey"
                 },
                 {
                     "name": "Infura",
-                    "rpc": "https://arbitrum-rinkeby.infura.io/v3/$apiKey"
+                    "rpc": "https://arbitrum-goerli.infura.io/v3/$apiKey"
                 }
             ]
         }
