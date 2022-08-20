@@ -43,6 +43,10 @@
                     "name": "LinkPool",
                     "rpc": "https://main-light.eth.linkpool.io",
                     "wss": "wss://main-light.eth.linkpool.io/ws"
+                },
+                {
+                    "name": "Keydonix",
+                    "rpc": "https://ethereum.keydonix.com/v1/mainnet"
                 }
             ]
         },
@@ -96,6 +100,10 @@
                     "name": "LinkPool",
                     "rpc": "https://rinkeby-light.eth.linkpool.io",
                     "wss": "wss://rinkeby-light.eth.linkpool.io/ws"
+                },
+                {
+                    "name": "Keydonix",
+                    "rpc": "https://ethereum.keydonix.com/v1/rinkeby"
                 }
             ]
         },
@@ -148,6 +156,10 @@
                     "name": "LinkPool",
                     "rpc": "https://goerli-light.eth.linkpool.io",
                     "wss": "wss://goerli-light.eth.linkpool.io/ws"
+                },
+                {
+                    "name": "Keydonix",
+                    "rpc": "https://ethereum.keydonix.com/v1/goerli"
                 }
             ]
         },
