@@ -47,6 +47,10 @@
                 {
                     "name": "Keydonix",
                     "rpc": "https://ethereum.keydonix.com/v1/mainnet"
+                },
+                {
+                    "name": "SecureRpc",
+                    "rpc": "https://api.securerpc.com/v1"
                 }
             ]
         },
