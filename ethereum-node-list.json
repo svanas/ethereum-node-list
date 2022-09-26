@@ -1,7 +1,7 @@
 {
     "version": {
         "major": 1,
-        "minor": 0,
+        "minor": 1,
         "patch": 0
     },
     "chains": [
@@ -51,6 +51,10 @@
                 {
                     "name": "SecureRpc",
                     "rpc": "https://api.securerpc.com/v1"
+                },
+                {
+                    "name": "1RPC",
+                    "rpc": "https://1rpc.io/eth"
                 }
             ]
         },
@@ -182,6 +186,10 @@
                 {
                     "name": "Pocket Network",
                     "rpc": "https://optimism-mainnet.gateway.pokt.network/v1/lb/$apiKey"
+                },
+                {
+                    "name": "1RPC",
+                    "rpc": "https://1rpc.io/op"
                 }
             ]
         },
@@ -199,6 +207,10 @@
                 {
                     "name": "Pocket Network",
                     "rpc": "https://bsc-mainnet.gateway.pokt.network/v1/lb/$apiKey"
+                },
+                {
+                    "name": "1RPC",
+                    "rpc": "https://1rpc.io/bnb"
                 }
             ]
         },
@@ -244,6 +256,10 @@
                 {
                     "name": "Pocket Network",
                     "rpc": "https://poly-mainnet.gateway.pokt.network/v1/lb/$apiKey"
+                },
+                {
+                    "name": "1RPC",
+                    "rpc": "https://1rpc.io/matic"
                 }
             ]
         },
@@ -311,6 +327,10 @@
                 {
                     "name": "Infura",
                     "rpc": "https://arbitrum-mainnet.infura.io/v3/$apiKey"
+                },
+                {
+                    "name": "1RPC",
+                    "rpc": "https://1rpc.io/arb"
                 }
             ]
         },
