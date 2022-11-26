@@ -1,7 +1,7 @@
 {
     "version": {
         "major": 1,
-        "minor": 2,
+        "minor": 3,
         "patch": 0
     },
     "chains": [
@@ -46,77 +46,6 @@
                 {
                     "name": "1RPC",
                     "rpc": "https://1rpc.io/eth"
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "nodes": [
-                {
-                    "name": "Rivet",
-                    "rpc": "https://$apiKey.ropsten.rpc.rivet.cloud/",
-                    "wss": "wss://$apiKey.ropsten.ws.rivet.cloud/"
-                },
-                {
-                    "name": "Alchemy",
-                    "rpc": "https://eth-ropsten.g.alchemy.com/v2/$apiKey",
-                    "wss": "wss://eth-ropsten.g.alchemy.com/v2/$apiKey"
-                },
-                {
-                    "name": "Infura",
-                    "rpc": "https://ropsten.infura.io/v3/$apiKey",
-                    "wss": "wss://ropsten.infura.io/ws/v3/$apiKey"
-                },
-                {
-                    "name": "Pocket Network",
-                    "rpc": "https://eth-ropsten.gateway.pokt.network/v1/lb/$apiKey"
-                }
-            ]
-        },
-        {
-            "id": 4,
-            "nodes": [
-                {
-                    "name": "Rivet",
-                    "rpc": "https://$apiKey.rinkeby.rpc.rivet.cloud/",
-                    "wss": "wss://$apiKey.rinkeby.ws.rivet.cloud/"
-                },
-                {
-                    "name": "Alchemy",
-                    "rpc": "https://eth-rinkeby.g.alchemy.com/v2/$apiKey",
-                    "wss": "wss://eth-rinkeby.g.alchemy.com/v2/$apiKey"
-                },
-                {
-                    "name": "Infura",
-                    "rpc": "https://rinkeby.infura.io/v3/$apiKey",
-                    "wss": "wss://rinkeby.infura.io/ws/v3/$apiKey"
-                },
-                {
-                    "name": "Pocket Network",
-                    "rpc": "https://eth-rinkeby.gateway.pokt.network/v1/lb/$apiKey"
-                },
-                {
-                    "name": "Keydonix",
-                    "rpc": "https://ethereum.keydonix.com/v1/rinkeby"
-                }
-            ]
-        },
-        {
-            "id": 42,
-            "nodes": [
-                {
-                    "name": "Alchemy",
-                    "rpc": "https://eth-kovan.g.alchemy.com/v2/$apiKey",
-                    "wss": "wss://eth-kovan.g.alchemy.com/v2/$apiKey"
-                },
-                {
-                    "name": "Infura",
-                    "rpc": "https://kovan.infura.io/v3/$apiKey",
-                    "wss": "wss://kovan.infura.io/ws/v3/$apiKey"
-                },
-                {
-                    "name": "Pocket Network",
-                    "rpc": "https://poa-kovan.gateway.pokt.network/v1/lb/$apiKey"
                 }
             ]
         },
