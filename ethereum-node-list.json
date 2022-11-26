@@ -1,7 +1,7 @@
 {
     "version": {
         "major": 1,
-        "minor": 1,
+        "minor": 2,
         "patch": 0
     },
     "chains": [
@@ -24,10 +24,6 @@
                     "wss": "wss://mainnet.infura.io/ws/v3/$apiKey"
                 },
                 {
-                    "name": "Moralis",
-                    "rpc": "https://speedy-nodes-nyc.moralis.io/$apiKey/eth/mainnet"
-                },
-                {
                     "name": "Flashbots Protect",
                     "rpc": "https://rpc.flashbots.net"
                 },
@@ -38,11 +34,6 @@
                 {
                     "name": "Cloudflare",
                     "rpc": "https://cloudflare-eth.com/"
-                },
-                {
-                    "name": "LinkPool",
-                    "rpc": "https://main-light.eth.linkpool.io",
-                    "wss": "wss://main-light.eth.linkpool.io/ws"
                 },
                 {
                     "name": "Keydonix",
@@ -105,11 +96,6 @@
                     "rpc": "https://eth-rinkeby.gateway.pokt.network/v1/lb/$apiKey"
                 },
                 {
-                    "name": "LinkPool",
-                    "rpc": "https://rinkeby-light.eth.linkpool.io",
-                    "wss": "wss://rinkeby-light.eth.linkpool.io/ws"
-                },
-                {
                     "name": "Keydonix",
                     "rpc": "https://ethereum.keydonix.com/v1/rinkeby"
                 }
@@ -161,11 +147,6 @@
                     "rpc": "https://eth-goerli.gateway.pokt.network/v1/lb/$apiKey"
                 },
                 {
-                    "name": "LinkPool",
-                    "rpc": "https://goerli-light.eth.linkpool.io",
-                    "wss": "wss://goerli-light.eth.linkpool.io/ws"
-                },
-                {
                     "name": "Keydonix",
                     "rpc": "https://ethereum.keydonix.com/v1/goerli"
                 }
@@ -199,10 +180,6 @@
                 {
                     "name": "Binance",
                     "rpc": "https://bsc-dataseed.binance.org"
-                },
-                {
-                    "name": "Moralis",
-                    "rpc": "https://speedy-nodes-nyc.moralis.io/$apiKey/bsc/mainnet"
                 },
                 {
                     "name": "Pocket Network",
@@ -250,10 +227,6 @@
                     "rpc": "https://polygon-mainnet.infura.io/v3/$apiKey"
                 },
                 {
-                    "name": "Moralis",
-                    "rpc": "https://speedy-nodes-nyc.moralis.io/$apiKey/polygon/mainnet"
-                },
-                {
                     "name": "Pocket Network",
                     "rpc": "https://poly-mainnet.gateway.pokt.network/v1/lb/$apiKey"
                 },
@@ -269,10 +242,6 @@
                 {
                     "name": "Fantom Foundation",
                     "rpc": "https://rpc.ftm.tools"
-                },
-                {
-                    "name": "Moralis",
-                    "rpc": "https://speedy-nodes-nyc.moralis.io/$apiKey/fantom/mainnet"
                 },
                 {
                     "name": "Pocket Network",
@@ -306,10 +275,6 @@
         {
             "id": 43114,
             "nodes": [
-                {
-                    "name": "Moralis",
-                    "rpc": "https://speedy-nodes-nyc.moralis.io/$apiKey/avalanche/mainnet"
-                },
                 {
                     "name": "Pocket Network",
                     "rpc": "https://avax-mainnet.gateway.pokt.network/v1/lb/$apiKey"
