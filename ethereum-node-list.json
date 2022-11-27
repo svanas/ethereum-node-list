@@ -1,7 +1,7 @@
 {
     "version": {
         "major": 2,
-        "minor": 0,
+        "minor": 1,
         "patch": 0
     },
     "chains": [
@@ -38,10 +38,6 @@
                 {
                     "name": "Keydonix",
                     "rpc": "https://ethereum.keydonix.com/v1/mainnet"
-                },
-                {
-                    "name": "MyCrypto",
-                    "rpc": "https://api.mycryptoapi.com/eth"
                 },
                 {
                     "name": "MyEtherWallet",
