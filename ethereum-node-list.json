@@ -1,17 +1,17 @@
 {
     "version": {
-        "major": 1,
-        "minor": 3,
+        "major": 2,
+        "minor": 0,
         "patch": 0
     },
     "chains": [
         {
             "id": 1,
+            "name": "Ethereum",
             "nodes": [
                 {
-                    "name": "Rivet",
-                    "rpc": "https://$apiKey.eth.rpc.rivet.cloud/",
-                    "wss": "wss://$apiKey.eth.ws.rivet.cloud/"
+                    "name": "1RPC",
+                    "rpc": "https://1rpc.io/eth"
                 },
                 {
                     "name": "Alchemy",
@@ -19,48 +19,70 @@
                     "wss": "wss://eth-mainnet.g.alchemy.com/v2/$apiKey"
                 },
                 {
-                    "name": "Infura",
-                    "rpc": "https://mainnet.infura.io/v3/$apiKey",
-                    "wss": "wss://mainnet.infura.io/ws/v3/$apiKey"
-                },
-                {
-                    "name": "Flashbots Protect",
-                    "rpc": "https://rpc.flashbots.net"
-                },
-                {
-                    "name": "Pocket Network",
-                    "rpc": "https://eth-mainnet.gateway.pokt.network/v1/lb/$apiKey"
+                    "name": "Ankr",
+                    "rpc": "https://rpc.ankr.com/eth"
                 },
                 {
                     "name": "Cloudflare",
                     "rpc": "https://cloudflare-eth.com/"
                 },
                 {
+                    "name": "Flashbots Protect",
+                    "rpc": "https://rpc.flashbots.net"
+                },
+                {
+                    "name": "Infura",
+                    "rpc": "https://mainnet.infura.io/v3/$apiKey",
+                    "wss": "wss://mainnet.infura.io/ws/v3/$apiKey"
+                },
+                {
                     "name": "Keydonix",
                     "rpc": "https://ethereum.keydonix.com/v1/mainnet"
                 },
                 {
-                    "name": "SecureRpc",
-                    "rpc": "https://api.securerpc.com/v1"
+                    "name": "MyCrypto",
+                    "rpc": "https://api.mycryptoapi.com/eth"
                 },
                 {
-                    "name": "1RPC",
-                    "rpc": "https://1rpc.io/eth"
+                    "name": "MyEtherWallet",
+                    "rpc": "https://nodes.mewapi.io/rpc/eth"
+                },
+                {
+                    "name": "NodeReal",
+                    "rpc": "https://eth-mainnet.nodereal.io/v1/$apiKey",
+                    "wss": "wss://eth-mainnet.nodereal.io/ws/v1/$apiKey"
+                },
+                {
+                    "name": "Pocket Network",
+                    "rpc": "https://eth-mainnet.gateway.pokt.network/v1/lb/$apiKey"
+                },
+                {
+                    "name": "Public Node",
+                    "rpc": "https://ethereum.publicnode.com"
+                },
+                {
+                    "name": "Rivet",
+                    "rpc": "https://$apiKey.eth.rpc.rivet.cloud/",
+                    "wss": "wss://$apiKey.eth.ws.rivet.cloud/"
+                },
+                {
+                    "name": "SecureRpc",
+                    "rpc": "https://api.securerpc.com/v1"
                 }
             ]
         },
         {
             "id": 5,
+            "name": "Goerli",
             "nodes": [
-                {
-                    "name": "Rivet",
-                    "rpc": "https://$apiKey.goerli.rpc.rivet.cloud/",
-                    "wss": "wss://$apiKey.goerli.ws.rivet.cloud/"
-                },
                 {
                     "name": "Alchemy",
                     "rpc": "https://eth-goerli.g.alchemy.com/v2/$apiKey",
                     "wss": "wss://eth-goerli.g.alchemy.com/v2/$apiKey"
+                },
+                {
+                    "name": "Flashbots Protect",
+                    "rpc": "https://rpc-goerli.flashbots.net"
                 },
                 {
                     "name": "Infura",
@@ -68,70 +90,107 @@
                     "wss": "wss://goerli.infura.io/ws/v3/$apiKey"
                 },
                 {
-                    "name": "Flashbots Protect",
-                    "rpc": "https://rpc-goerli.flashbots.net"
+                    "name": "Keydonix",
+                    "rpc": "https://ethereum.keydonix.com/v1/goerli"
+                },
+                {
+                    "name": "NodeReal",
+                    "rpc": "https://eth-goerli.nodereal.io/v1/$apiKey",
+                    "wss": "wss://eth-goerli.nodereal.io/ws/v1/$apiKey"
                 },
                 {
                     "name": "Pocket Network",
                     "rpc": "https://eth-goerli.gateway.pokt.network/v1/lb/$apiKey"
                 },
                 {
-                    "name": "Keydonix",
-                    "rpc": "https://ethereum.keydonix.com/v1/goerli"
+                    "name": "Rivet",
+                    "rpc": "https://$apiKey.goerli.rpc.rivet.cloud/",
+                    "wss": "wss://$apiKey.goerli.ws.rivet.cloud/"
                 }
             ]
         },
         {
             "id": 10,
+            "name": "Optimism",
             "nodes": [
+                {
+                    "name": "1RPC",
+                    "rpc": "https://1rpc.io/op"
+                },
                 {
                     "name": "Alchemy",
                     "rpc": "https://opt-mainnet.g.alchemy.com/v2/$apiKey",
                     "wss": "wss://opt-mainnet.g.alchemy.com/v2/$apiKey"
                 },
                 {
+                    "name": "Ankr",
+                    "rpc": "https://rpc.ankr.com/optimism"
+                },
+                {
                     "name": "Infura",
                     "rpc": "https://optimism-mainnet.infura.io/v3/$apiKey"
                 },
                 {
-                    "name": "Pocket Network",
-                    "rpc": "https://optimism-mainnet.gateway.pokt.network/v1/lb/$apiKey"
+                    "name": "NodeReal",
+                    "rpc": "https://opt-mainnet.nodereal.io/v1/$apiKey",
+                    "wss": "wss://opt-mainnet.nodereal.io/ws/v1/$apiKey"
                 },
                 {
-                    "name": "1RPC",
-                    "rpc": "https://1rpc.io/op"
+                    "name": "Pocket Network",
+                    "rpc": "https://optimism-mainnet.gateway.pokt.network/v1/lb/$apiKey"
                 }
             ]
         },
         {
             "id": 56,
+            "name": "BNB Chain",
             "nodes": [
+                {
+                    "name": "1RPC",
+                    "rpc": "https://1rpc.io/bnb"
+                },
+                {
+                    "name": "Ankr",
+                    "rpc": "https://rpc.ankr.com/bsc"
+                },
                 {
                     "name": "Binance",
                     "rpc": "https://bsc-dataseed.binance.org"
                 },
                 {
-                    "name": "Pocket Network",
-                    "rpc": "https://bsc-mainnet.gateway.pokt.network/v1/lb/$apiKey"
+                    "name": "NodeReal",
+                    "rpc": "https://bsc-mainnet.nodereal.io/v1/$apiKey",
+                    "wss": "wss://bsc-mainnet.nodereal.io/ws/v1/$apiKey"
                 },
                 {
-                    "name": "1RPC",
-                    "rpc": "https://1rpc.io/bnb"
+                    "name": "Pocket Network",
+                    "rpc": "https://bsc-mainnet.gateway.pokt.network/v1/lb/$apiKey"
                 }
             ]
         },
         {
             "id": 97,
+            "name": "BNB Chain testnet",
             "nodes": [
                 {
                     "name": "Binance",
                     "rpc": "https://data-seed-prebsc-1-s1.binance.org:8545"
+                },
+                {
+                    "name": "NodeReal",
+                    "rpc": "https://bsc-testnet.nodereal.io/v1/$apiKey",
+                    "wss": "wss://bsc-testnet.nodereal.io/ws/v1/$apiKey"
                 }
             ]
         },
         {
             "id": 100,
+            "name": "Gnosis Chain",
             "nodes": [
+                {
+                    "name": "Ankr",
+                    "rpc": "https://rpc.ankr.com/gnosis"
+                },
                 {
                     "name": "Gnosis",
                     "rpc": "https://rpc.gnosischain.com",
@@ -145,29 +204,48 @@
         },
         {
             "id": 137,
+            "name": "Polygon",
             "nodes": [
+                {
+                    "name": "1RPC",
+                    "rpc": "https://1rpc.io/matic"
+                },
                 {
                     "name": "Alchemy",
                     "rpc": "https://polygon-mainnet.g.alchemy.com/v2/$apiKey",
                     "wss": "wss://polygon-mainnet.g.alchemy.com/v2/$apiKey"
                 },
                 {
+                    "name": "Ankr",
+                    "rpc": "https://rpc.ankr.com/polygon"
+                },
+                {
                     "name": "Infura",
                     "rpc": "https://polygon-mainnet.infura.io/v3/$apiKey"
+                },
+                {
+                    "name": "NodeReal",
+                    "rpc": "https://polygon-mainnet.nodereal.io/v1/$apiKey",
+                    "wss": "wss://polygon-mainnet.nodereal.io/ws/v1/$apiKey"
                 },
                 {
                     "name": "Pocket Network",
                     "rpc": "https://poly-mainnet.gateway.pokt.network/v1/lb/$apiKey"
                 },
                 {
-                    "name": "1RPC",
-                    "rpc": "https://1rpc.io/matic"
+                    "name": "Public Node",
+                    "rpc": "https://polygon-bor.publicnode.com"
                 }
             ]
         },
         {
             "id": 250,
+            "name": "Fantom",
             "nodes": [
+                {
+                    "name": "Ankr",
+                    "rpc": "https://rpc.ankr.com/fantom"
+                },
                 {
                     "name": "Fantom Foundation",
                     "rpc": "https://rpc.ftm.tools"
@@ -180,6 +258,7 @@
         },
         {
             "id": 420,
+            "name": "Optimism Goerli",
             "nodes": [
                 {
                     "name": "Alchemy",
@@ -194,6 +273,7 @@
         },
         {
             "id": 4002,
+            "name": "Fantom testnet",
             "nodes": [
                 {
                     "name": "Fantom Foundation",
@@ -202,34 +282,31 @@
             ]
         },
         {
-            "id": 43114,
+            "id": 42161,
+            "name": "Arbitrum",
             "nodes": [
                 {
-                    "name": "Pocket Network",
-                    "rpc": "https://avax-mainnet.gateway.pokt.network/v1/lb/$apiKey"
-                }
-            ]
-        },
-        {
-            "id": 42161,
-            "nodes": [
+                    "name": "1RPC",
+                    "rpc": "https://1rpc.io/arb"
+                },
                 {
                     "name": "Alchemy",
                     "rpc": "https://arb-mainnet.g.alchemy.com/v2/$apiKey",
                     "wss": "wss://arb-mainnet.g.alchemy.com/v2/$apiKey"
                 },
                 {
-                    "name": "Infura",
-                    "rpc": "https://arbitrum-mainnet.infura.io/v3/$apiKey"
+                    "name": "Ankr",
+                    "rpc": "https://rpc.ankr.com/arbitrum"
                 },
                 {
-                    "name": "1RPC",
-                    "rpc": "https://1rpc.io/arb"
+                    "name": "Infura",
+                    "rpc": "https://arbitrum-mainnet.infura.io/v3/$apiKey"
                 }
             ]
         },
         {
             "id": 80001,
+            "name": "Polygon Mumbai",
             "nodes": [
                 {
                     "name": "Alchemy",
@@ -239,11 +316,16 @@
                 {
                     "name": "Infura",
                     "rpc": "https://polygon-mumbai.infura.io/v3/$apiKey"
+                },
+                {
+                    "name": "Pocket Network",
+                    "rpc": "https://polygon-mumbai.gateway.pokt.network/v1/lb/$apiKey"
                 }
             ]
         },
         {
             "id": 421613,
+            "name": "Arbitrum Goerli",
             "nodes": [
                 {
                     "name": "Alchemy",
