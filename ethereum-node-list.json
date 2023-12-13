@@ -53,8 +53,8 @@
                     "wss": "wss://eth-mainnet.nodereal.io/ws/v1/$apiKey"
                 },
                 {
-                    "name": "Pocket Network",
-                    "rpc": "https://eth-rpc.gateway.pokt.network"
+                    "name": "Grove",
+                    "rpc": "https://eth-mainnet.rpc.grove.city/v1/$apiKey"
                 },
                 {
                     "name": "Public Node",
@@ -94,8 +94,8 @@
                     "wss": "wss://eth-goerli.nodereal.io/ws/v1/$apiKey"
                 },
                 {
-                    "name": "Pocket Network",
-                    "rpc": "https://eth-goerli-rpc.gateway.pokt.network"
+                    "name": "Grove",
+                    "rpc": "https://eth-goerli.rpc.grove.city/v1/$apiKey"
                 }
             ]
         },
@@ -126,8 +126,8 @@
                     "wss": "wss://opt-mainnet.nodereal.io/ws/v1/$apiKey"
                 },
                 {
-                    "name": "Pocket Network",
-                    "rpc": "https://optimism-rpc.gateway.pokt.network"
+                    "name": "Grove",
+                    "rpc": "https://optimism-mainnet.rpc.grove.city/v1/$apiKey"
                 }
             ]
         },
@@ -157,8 +157,8 @@
                     "wss": "wss://bsc-mainnet.nodereal.io/ws/v1/$apiKey"
                 },
                 {
-                    "name": "Pocket Network",
-                    "rpc": "https://bsc-rpc.gateway.pokt.network"
+                    "name": "Grove",
+                    "rpc": "https://bsc-mainnet.rpc.grove.city/v1/$apiKey"
                 }
             ]
         },
@@ -195,8 +195,8 @@
                     "wss": "wss://rpc.gnosischain.com/wss"
                 },
                 {
-                    "name": "Pocket Network",
-                    "rpc": "https://gnosischain-rpc.gateway.pokt.network"
+                    "name": "Grove",
+                    "rpc": "https://gnosischain-mainnet.rpc.grove.city/v1/$apiKey"
                 }
             ]
         },
@@ -231,8 +231,8 @@
                     "wss": "wss://polygon-mainnet.nodereal.io/ws/v1/$apiKey"
                 },
                 {
-                    "name": "Pocket Network",
-                    "rpc": "https://poly-rpc.gateway.pokt.network"
+                    "name": "Grove",
+                    "rpc": "https://poly-mainnet.rpc.grove.city/v1/$apiKey"
                 },
                 {
                     "name": "Public Node",
@@ -257,8 +257,8 @@
                     "rpc": "https://rpc.ftm.tools"
                 },
                 {
-                    "name": "Pocket Network",
-                    "rpc": "https://fantom-rpc.gateway.pokt.network"
+                    "name": "Grove",
+                    "rpc": "https://fantom-mainnet.rpc.grove.city/v1/$apiKey"
                 }
             ]
         },
@@ -296,6 +296,16 @@
             ]
         },
         {
+            "id": 8453,
+            "name": "Base",
+            "nodes": [
+                {
+                    "name": "Grove",
+                    "rpc": "https://base-mainnet.rpc.grove.city/v1/$apiKey"
+                }
+            ]
+        },
+        {
             "id": 42161,
             "name": "Arbitrum",
             "nodes": [
@@ -317,8 +327,8 @@
                     "rpc": "https://arbitrum-mainnet.infura.io/v3/$apiKey"
                 },
                 {
-                    "name": "Pocket Network",
-                    "rpc": "https://arbitrum-rpc.gateway.pokt.network"
+                    "name": "Grove",
+                    "rpc": "https://arbitrum-one.rpc.grove.city/v1/$apiKey"
                 }
             ]
         },
@@ -338,6 +348,10 @@
                 {
                     "name": "Infura",
                     "rpc": "https://polygon-mumbai.infura.io/v3/$apiKey"
+                },
+                {
+                    "name": "Grove",
+                    "rpc": "https://polygon-mumbai.rpc.grove.city/v1/$apiKey"
                 }
             ]
         },
@@ -353,6 +367,16 @@
                 {
                     "name": "Infura",
                     "rpc": "https://arbitrum-goerli.infura.io/v3/$apiKey"
+                }
+            ]
+        },
+        {
+            "id": 11155111,
+            "name": "Sepolia",
+            "nodes": [
+                {
+                    "name": "Grove",
+                    "rpc": "https://sepolia.rpc.grove.city/v1/$apiKey"
                 }
             ]
         }
