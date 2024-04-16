@@ -58,7 +58,8 @@
                 },
                 {
                     "name": "Public Node",
-                    "rpc": "https://ethereum.publicnode.com"
+                    "rpc": "https://ethereum-rpc.publicnode.com",
+                    "wss": "wss://ethereum-rpc.publicnode.com"
                 },
                 {
                     "name": "SecureRpc",
@@ -100,6 +101,11 @@
                     "name": "NodeReal",
                     "rpc": "https://opt-mainnet.nodereal.io/v1/$apiKey",
                     "wss": "wss://opt-mainnet.nodereal.io/ws/v1/$apiKey"
+                },
+                {
+                    "name": "Public Node",
+                    "rpc": "https://optimism-rpc.publicnode.com",
+                    "wss": "wss://optimism-rpc.publicnode.com"
                 }
             ]
         },
@@ -134,7 +140,8 @@
                 },
                 {
                     "name": "Public Node",
-                    "rpc": "https://bsc.publicnode.com"
+                    "rpc": "https://bsc-rpc.publicnode.com",
+                    "wss": "wss://bsc-rpc.publicnode.com"
                 }
             ]
         },
@@ -154,6 +161,11 @@
                     "name": "NodeReal",
                     "rpc": "https://bsc-testnet.nodereal.io/v1/$apiKey",
                     "wss": "wss://bsc-testnet.nodereal.io/ws/v1/$apiKey"
+                },
+                {
+                    "name": "Public Node",
+                    "rpc": "https://bsc-testnet-rpc.publicnode.com",
+                    "wss": "wss://bsc-testnet-rpc.publicnode.com"
                 }
             ]
         },
@@ -177,6 +189,11 @@
                 {
                     "name": "Grove",
                     "rpc": "https://gnosischain-mainnet.rpc.grove.city/v1/$apiKey"
+                },
+                {
+                    "name": "Public Node",
+                    "rpc": "https://gnosis-rpc.publicnode.com",
+                    "wss": "wss://gnosis-rpc.publicnode.com"
                 }
             ]
         },
@@ -217,7 +234,8 @@
                 },
                 {
                     "name": "Public Node",
-                    "rpc": "https://polygon-bor.publicnode.com"
+                    "rpc": "https://polygon-bor-rpc.publicnode.com",
+                    "wss": "wss://polygon-bor-rpc.publicnode.com"
                 }
             ]
         },
@@ -240,6 +258,11 @@
                 {
                     "name": "Grove",
                     "rpc": "https://fantom-mainnet.rpc.grove.city/v1/$apiKey"
+                },
+                {
+                    "name": "Public Node",
+                    "rpc": "https://fantom-rpc.publicnode.com",
+                    "wss": "wss://fantom-rpc.publicnode.com"
                 }
             ]
         },
@@ -254,6 +277,11 @@
                 {
                     "name": "Fantom Foundation",
                     "rpc": "https://rpc.testnet.fantom.network"
+                },
+                {
+                    "name": "Public Node",
+                    "rpc": "https://fantom-testnet-rpc.publicnode.com",
+                    "wss": "wss://fantom-testnet-rpc.publicnode.com"
                 }
             ]
         },
@@ -281,6 +309,11 @@
                 {
                     "name": "LlamaNodes",
                     "rpc": "https://base.llamarpc.com"
+                },
+                {
+                    "name": "Public Node",
+                    "rpc": "https://base-rpc.publicnode.com",
+                    "wss": "wss://base-rpc.publicnode.com"
                 }
             ]
         },
@@ -313,6 +346,11 @@
                 {
                     "name": "LlamaNodes",
                     "rpc": "https://arbitrum.llamarpc.com"
+                },
+                {
+                    "name": "Public Node",
+                    "rpc": "https://arbitrum-one-rpc.publicnode.com",
+                    "wss": "wss://arbitrum-one-rpc.publicnode.com"
                 }
             ]
         },
@@ -336,6 +374,11 @@
                 {
                     "name": "Infura",
                     "rpc": "https://polygon-mumbai.infura.io/v3/$apiKey"
+                },
+                {
+                    "name": "Public Node",
+                    "rpc": "https://polygon-mumbai-bor-rpc.publicnode.com",
+                    "wss": "wss://polygon-mumbai-bor-rpc.publicnode.com"
                 }
             ]
         },
@@ -347,6 +390,11 @@
                     "name": "Alchemy",
                     "rpc": "https://base-sepolia.g.alchemy.com/v2/$apiKey",
                     "wss": "wss://base-sepolia.g.alchemy.com/v2/$apiKey"
+                },
+                {
+                    "name": "Public Node",
+                    "rpc": "https://base-sepolia-rpc.publicnode.com",
+                    "wss": "wss://base-sepolia-rpc.publicnode.com"
                 }
             ]
         },
@@ -367,6 +415,11 @@
                     "name": "Infura",
                     "rpc": "https://arbitrum-sepolia.infura.io/v3/$apiKey",
                     "wss": "wss://arbitrum-sepolia.infura.io/ws/v3/$apiKey"
+                },
+                {
+                    "name": "Public Node",
+                    "rpc": "https://arbitrum-sepolia-rpc.publicnode.com",
+                    "wss": "wss://arbitrum-sepolia-rpc.publicnode.com"
                 }
             ]
         },
@@ -395,6 +448,11 @@
                     "name": "Infura",
                     "rpc": "https://sepolia.infura.io/v3/$apiKey",
                     "wss": "wss://sepolia.infura.io/ws/v3/$apiKey"
+                },
+                {
+                    "name": "Public Node",
+                    "rpc": "https://ethereum-sepolia-rpc.publicnode.com",
+                    "wss": "wss://ethereum-sepolia-rpc.publicnode.com"
                 }
             ]
         },
@@ -415,6 +473,11 @@
                     "name": "Infura",
                     "rpc": "https://optimism-sepolia.infura.io/v3/$apiKey",
                     "wss": "wss://optimism-sepolia.infura.io/ws/v3/$apiKey"
+                },
+                {
+                    "name": "Public Node",
+                    "rpc": "https://optimism-sepolia-rpc.publicnode.com",
+                    "wss": "wss://optimism-sepolia-rpc.publicnode.com"
                 }
             ]
         }
