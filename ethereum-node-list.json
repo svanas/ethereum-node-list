@@ -31,6 +31,10 @@
                     "rpc": "https://rpc.flashbots.net"
                 },
                 {
+                    "name": "Grove",
+                    "rpc": "https://eth-mainnet.rpc.grove.city/v1/$apiKey"
+                },
+                {
                     "name": "Infura",
                     "rpc": "https://mainnet.infura.io/v3/$apiKey",
                     "wss": "wss://mainnet.infura.io/ws/v3/$apiKey"
@@ -51,10 +55,6 @@
                     "name": "NodeReal",
                     "rpc": "https://eth-mainnet.nodereal.io/v1/$apiKey",
                     "wss": "wss://eth-mainnet.nodereal.io/ws/v1/$apiKey"
-                },
-                {
-                    "name": "Grove",
-                    "rpc": "https://eth-mainnet.rpc.grove.city/v1/$apiKey"
                 },
                 {
                     "name": "Public Node",
@@ -84,22 +84,22 @@
                     "rpc": "https://rpc.ankr.com/optimism"
                 },
                 {
+                    "name": "Grove",
+                    "rpc": "https://optimism-mainnet.rpc.grove.city/v1/$apiKey"
+                },
+                {
                     "name": "Infura",
                     "rpc": "https://optimism-mainnet.infura.io/v3/$apiKey",
                     "wss": "wss://optimism-mainnet.infura.io/ws/v3/$apiKey"
                 },
                 {
+                    "name": "LlamaNodes",
+                    "rpc": "https://optimism.llamarpc.com"
+                },
+                {
                     "name": "NodeReal",
                     "rpc": "https://opt-mainnet.nodereal.io/v1/$apiKey",
                     "wss": "wss://opt-mainnet.nodereal.io/ws/v1/$apiKey"
-                },
-                {
-                    "name": "Grove",
-                    "rpc": "https://optimism-mainnet.rpc.grove.city/v1/$apiKey"
-                },
-                {
-                    "name": "LlamaNodes",
-                    "rpc": "https://optimism.llamarpc.com"
                 }
             ]
         },
@@ -120,12 +120,12 @@
                     "rpc": "https://bsc-dataseed.binance.org"
                 },
                 {
-                    "name": "LlamaNodes",
-                    "rpc": "https://binance.llamarpc.com"
+                    "name": "Grove",
+                    "rpc": "https://bsc-mainnet.rpc.grove.city/v1/$apiKey"
                 },
                 {
-                    "name": "Public Node",
-                    "rpc": "https://bsc.publicnode.com"
+                    "name": "LlamaNodes",
+                    "rpc": "https://binance.llamarpc.com"
                 },
                 {
                     "name": "NodeReal",
@@ -133,8 +133,8 @@
                     "wss": "wss://bsc-mainnet.nodereal.io/ws/v1/$apiKey"
                 },
                 {
-                    "name": "Grove",
-                    "rpc": "https://bsc-mainnet.rpc.grove.city/v1/$apiKey"
+                    "name": "Public Node",
+                    "rpc": "https://bsc.publicnode.com"
                 }
             ]
         },
@@ -198,6 +198,10 @@
                     "rpc": "https://rpc.ankr.com/polygon"
                 },
                 {
+                    "name": "Grove",
+                    "rpc": "https://poly-mainnet.rpc.grove.city/v1/$apiKey"
+                },
+                {
                     "name": "Infura",
                     "rpc": "https://polygon-mainnet.infura.io/v3/$apiKey",
                     "wss": "wss://polygon-mainnet.infura.io/ws/v3/$apiKey"
@@ -210,10 +214,6 @@
                     "name": "NodeReal",
                     "rpc": "https://polygon-mainnet.nodereal.io/v1/$apiKey",
                     "wss": "wss://polygon-mainnet.nodereal.io/ws/v1/$apiKey"
-                },
-                {
-                    "name": "Grove",
-                    "rpc": "https://poly-mainnet.rpc.grove.city/v1/$apiKey"
                 },
                 {
                     "name": "Public Node",
@@ -302,13 +302,13 @@
                     "rpc": "https://rpc.ankr.com/arbitrum"
                 },
                 {
+                    "name": "Grove",
+                    "rpc": "https://arbitrum-one.rpc.grove.city/v1/$apiKey"
+                },
+                {
                     "name": "Infura",
                     "rpc": "https://arbitrum-mainnet.infura.io/v3/$apiKey",
                     "wss": "wss://arbitrum-mainnet.infura.io/ws/v3/$apiKey"
-                },
-                {
-                    "name": "Grove",
-                    "rpc": "https://arbitrum-one.rpc.grove.city/v1/$apiKey"
                 },
                 {
                     "name": "LlamaNodes",
@@ -330,12 +330,12 @@
                     "rpc": "https://rpc.ankr.com/polygon_mumbai"
                 },
                 {
-                    "name": "Infura",
-                    "rpc": "https://polygon-mumbai.infura.io/v3/$apiKey"
-                },
-                {
                     "name": "Grove",
                     "rpc": "https://polygon-mumbai.rpc.grove.city/v1/$apiKey"
+                },
+                {
+                    "name": "Infura",
+                    "rpc": "https://polygon-mumbai.infura.io/v3/$apiKey"
                 }
             ]
         },
