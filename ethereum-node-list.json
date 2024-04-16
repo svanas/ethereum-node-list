@@ -263,6 +263,10 @@
                     "wss": "wss://base-mainnet.g.alchemy.com/v2/$apiKey"
                 },
                 {
+                    "name": "Ankr",
+                    "rpc": "https://rpc.ankr.com/base"
+                },
+                {
                     "name": "Grove",
                     "rpc": "https://base-mainnet.rpc.grove.city/v1/$apiKey"
                 }
