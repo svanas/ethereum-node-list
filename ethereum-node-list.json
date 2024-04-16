@@ -360,6 +360,10 @@
                     "wss": "wss://arb-sepolia.g.alchemy.com/v2/$apiKey"
                 },
                 {
+                    "name": "Grove",
+                    "rpc": "https://arbitrum-sepolia-archival.rpc.grove.city/v1/$apiKey"
+                },
+                {
                     "name": "Infura",
                     "rpc": "https://arbitrum-sepolia.infura.io/v3/$apiKey",
                     "wss": "wss://arbitrum-sepolia.infura.io/ws/v3/$apiKey"
@@ -402,6 +406,10 @@
                     "name": "Alchemy",
                     "rpc": "https://opt-sepolia.g.alchemy.com/v2/$apiKey",
                     "wss": "wss://opt-sepolia.g.alchemy.com/v2/$apiKey"
+                },
+                {
+                    "name": "Grove",
+                    "rpc": "https://optimism-sepolia-archival.rpc.grove.city/v1/$apiKey"
                 },
                 {
                     "name": "Infura",
