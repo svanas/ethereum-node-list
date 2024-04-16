@@ -67,39 +67,6 @@
             ]
         },
         {
-            "id": 5,
-            "name": "Goerli",
-            "nodes": [
-                {
-                    "name": "Alchemy",
-                    "rpc": "https://eth-goerli.g.alchemy.com/v2/$apiKey",
-                    "wss": "wss://eth-goerli.g.alchemy.com/v2/$apiKey"
-                },
-                {
-                    "name": "Ankr",
-                    "rpc": "https://rpc.ankr.com/eth_goerli"
-                },
-                {
-                    "name": "Flashbots Protect",
-                    "rpc": "https://rpc-goerli.flashbots.net"
-                },
-                {
-                    "name": "Infura",
-                    "rpc": "https://goerli.infura.io/v3/$apiKey",
-                    "wss": "wss://goerli.infura.io/ws/v3/$apiKey"
-                },
-                {
-                    "name": "NodeReal",
-                    "rpc": "https://eth-goerli.nodereal.io/v1/$apiKey",
-                    "wss": "wss://eth-goerli.nodereal.io/ws/v1/$apiKey"
-                },
-                {
-                    "name": "Grove",
-                    "rpc": "https://eth-goerli.rpc.grove.city/v1/$apiKey"
-                }
-            ]
-        },
-        {
             "id": 10,
             "name": "Optimism",
             "nodes": [
@@ -118,7 +85,8 @@
                 },
                 {
                     "name": "Infura",
-                    "rpc": "https://optimism-mainnet.infura.io/v3/$apiKey"
+                    "rpc": "https://optimism-mainnet.infura.io/v3/$apiKey",
+                    "wss": "wss://optimism-mainnet.infura.io/ws/v3/$apiKey"
                 },
                 {
                     "name": "NodeReal",
@@ -219,7 +187,8 @@
                 },
                 {
                     "name": "Infura",
-                    "rpc": "https://polygon-mainnet.infura.io/v3/$apiKey"
+                    "rpc": "https://polygon-mainnet.infura.io/v3/$apiKey",
+                    "wss": "wss://polygon-mainnet.infura.io/ws/v3/$apiKey"
                 },
                 {
                     "name": "LlamaNodes",
@@ -263,25 +232,6 @@
             ]
         },
         {
-            "id": 420,
-            "name": "Optimism Goerli",
-            "nodes": [
-                {
-                    "name": "Alchemy",
-                    "rpc": "https://opt-goerli.g.alchemy.com/v2/$apiKey",
-                    "wss": "wss://opt-goerli.g.alchemy.com/v2/$apiKey"
-                },
-                {
-                    "name": "Ankr",
-                    "rpc": "https://rpc.ankr.com/optimism_testnet"
-                },
-                {
-                    "name": "Infura",
-                    "rpc": "https://optimism-goerli.infura.io/v3/$apiKey"
-                }
-            ]
-        },
-        {
             "id": 4002,
             "name": "Fantom testnet",
             "nodes": [
@@ -299,6 +249,11 @@
             "id": 8453,
             "name": "Base",
             "nodes": [
+                {
+                    "name": "Alchemy",
+                    "rpc": "https://base-mainnet.g.alchemy.com/v2/$apiKey",
+                    "wss": "wss://base-mainnet.g.alchemy.com/v2/$apiKey"
+                },
                 {
                     "name": "Grove",
                     "rpc": "https://base-mainnet.rpc.grove.city/v1/$apiKey"
@@ -324,7 +279,8 @@
                 },
                 {
                     "name": "Infura",
-                    "rpc": "https://arbitrum-mainnet.infura.io/v3/$apiKey"
+                    "rpc": "https://arbitrum-mainnet.infura.io/v3/$apiKey",
+                    "wss": "wss://arbitrum-mainnet.infura.io/ws/v3/$apiKey"
                 },
                 {
                     "name": "Grove",
@@ -356,17 +312,29 @@
             ]
         },
         {
-            "id": 421613,
-            "name": "Arbitrum Goerli",
+            "id": 84532,
+            "name": "Base Sepolia",
             "nodes": [
                 {
                     "name": "Alchemy",
-                    "rpc": "https://arb-goerli.g.alchemy.com/v2/$apiKey",
-                    "wss": "wss://arb-goerli.g.alchemy.com/v2/$apiKey"
+                    "rpc": "https://base-sepolia.g.alchemy.com/v2/$apiKey",
+                    "wss": "wss://base-sepolia.g.alchemy.com/v2/$apiKey"
+                }
+            ]
+        },
+        {
+            "id": 421614,
+            "name": "Arbitrum Sepolia",
+            "nodes": [
+                {
+                    "name": "Alchemy",
+                    "rpc": "https://arb-sepolia.g.alchemy.com/v2/$apiKey",
+                    "wss": "wss://arb-sepolia.g.alchemy.com/v2/$apiKey"
                 },
                 {
                     "name": "Infura",
-                    "rpc": "https://arbitrum-goerli.infura.io/v3/$apiKey"
+                    "rpc": "https://arbitrum-sepolia.infura.io/v3/$apiKey",
+                    "wss": "wss://arbitrum-sepolia.infura.io/ws/v3/$apiKey"
                 }
             ]
         },
@@ -375,8 +343,34 @@
             "name": "Sepolia",
             "nodes": [
                 {
+                    "name": "Alchemy",
+                    "rpc": "https://eth-sepolia.g.alchemy.com/v2/$apiKey",
+                    "wss": "wss://eth-sepolia.g.alchemy.com/v2/$apiKey"
+                },
+                {
                     "name": "Grove",
                     "rpc": "https://sepolia.rpc.grove.city/v1/$apiKey"
+                },
+                {
+                    "name": "Infura",
+                    "rpc": "https://sepolia.infura.io/v3/$apiKey",
+                    "wss": "wss://sepolia.infura.io/ws/v3/$apiKey"
+                }
+            ]
+        },
+        {
+            "id": 11155420,
+            "name": "Optimism Sepolia",
+            "nodes": [
+                {
+                    "name": "Alchemy",
+                    "rpc": "https://opt-sepolia.g.alchemy.com/v2/$apiKey",
+                    "wss": "wss://opt-sepolia.g.alchemy.com/v2/$apiKey"
+                },
+                {
+                    "name": "Infura",
+                    "rpc": "https://optimism-sepolia.infura.io/v3/$apiKey",
+                    "wss": "wss://optimism-sepolia.infura.io/ws/v3/$apiKey"
                 }
             ]
         }
