@@ -1,6 +1,6 @@
 {
     "version": {
-        "major": 3,
+        "major": 4,
         "minor": 0,
         "patch": 0
     },
@@ -109,6 +109,10 @@
                     "name": "NodeReal",
                     "rpc": "https://opt-mainnet.nodereal.io/v1/$apiKey",
                     "wss": "wss://opt-mainnet.nodereal.io/ws/v1/$apiKey"
+                },
+                {
+                    "name": "Optimism",
+                    "rpc": "https://mainnet.optimism.io"
                 },
                 {
                     "name": "Public Node",
@@ -253,6 +257,10 @@
                     "wss": "wss://polygon-mainnet.nodereal.io/ws/v1/$apiKey"
                 },
                 {
+                    "name": "Polygon",
+                    "rpc": "https://polygon-rpc.com"
+                },
+                {
                     "name": "Public Node",
                     "rpc": "https://polygon-bor-rpc.publicnode.com",
                     "wss": "wss://polygon-bor-rpc.publicnode.com"
@@ -353,6 +361,10 @@
                     "name": "Alchemy",
                     "rpc": "https://arb-mainnet.g.alchemy.com/v2/$apiKey",
                     "wss": "wss://arb-mainnet.g.alchemy.com/v2/$apiKey"
+                },
+                {
+                    "name": "Arbitrum",
+                    "rpc": "https://arb1.arbitrum.io/rpc",
                 },
                 {
                     "name": "Ankr",
