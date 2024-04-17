@@ -48,6 +48,10 @@
                     "rpc": "https://rpc.mevblocker.io"
                 },
                 {
+                    "name": "Moralis",
+                    "rpc": "https://site1.moralis-nodes.com/eth/$apiKey"
+                },
+                {
                     "name": "MyEtherWallet",
                     "rpc": "https://nodes.mewapi.io/rpc/eth"
                 },
@@ -98,6 +102,10 @@
                     "rpc": "https://optimism.llamarpc.com"
                 },
                 {
+                    "name": "Moralis",
+                    "rpc": "https://site1.moralis-nodes.com/optimism/$apiKey"
+                },
+                {
                     "name": "NodeReal",
                     "rpc": "https://opt-mainnet.nodereal.io/v1/$apiKey",
                     "wss": "wss://opt-mainnet.nodereal.io/ws/v1/$apiKey"
@@ -134,6 +142,10 @@
                     "rpc": "https://binance.llamarpc.com"
                 },
                 {
+                    "name": "Moralis",
+                    "rpc": "https://site1.moralis-nodes.com/bsc/$apiKey"
+                },
+                {
                     "name": "NodeReal",
                     "rpc": "https://bsc-mainnet.nodereal.io/v1/$apiKey",
                     "wss": "wss://bsc-mainnet.nodereal.io/ws/v1/$apiKey"
@@ -156,6 +168,10 @@
                 {
                     "name": "Binance",
                     "rpc": "https://data-seed-prebsc-1-s1.binance.org:8545"
+                },
+                {
+                    "name": "Moralis",
+                    "rpc": "https://site1.moralis-nodes.com/bsc-testnet/$apiKey"
                 },
                 {
                     "name": "NodeReal",
@@ -226,6 +242,10 @@
                 {
                     "name": "LlamaNodes",
                     "rpc": "https://polygon.llamarpc.com"
+                },
+                {
+                    "name": "Moralis",
+                    "rpc": "https://site1.moralis-nodes.com/polygon/$apiKey"
                 },
                 {
                     "name": "NodeReal",
@@ -311,6 +331,10 @@
                     "rpc": "https://base.llamarpc.com"
                 },
                 {
+                    "name": "Moralis",
+                    "rpc": "https://site1.moralis-nodes.com/base/$apiKey"
+                },
+                {
                     "name": "Public Node",
                     "rpc": "https://base-rpc.publicnode.com",
                     "wss": "wss://base-rpc.publicnode.com"
@@ -346,6 +370,10 @@
                 {
                     "name": "LlamaNodes",
                     "rpc": "https://arbitrum.llamarpc.com"
+                },
+                {
+                    "name": "Moralis",
+                    "rpc": "https://site1.moralis-nodes.com/arbitrum/$apiKey"
                 },
                 {
                     "name": "Public Node",
@@ -392,6 +420,10 @@
                     "wss": "wss://base-sepolia.g.alchemy.com/v2/$apiKey"
                 },
                 {
+                    "name": "Moralis",
+                    "rpc": "https://site1.moralis-nodes.com/base-sepolia/$apiKey"
+                },
+                {
                     "name": "Public Node",
                     "rpc": "https://base-sepolia-rpc.publicnode.com",
                     "wss": "wss://base-sepolia-rpc.publicnode.com"
@@ -415,6 +447,10 @@
                     "name": "Infura",
                     "rpc": "https://arbitrum-sepolia.infura.io/v3/$apiKey",
                     "wss": "wss://arbitrum-sepolia.infura.io/ws/v3/$apiKey"
+                },
+                {
+                    "name": "Moralis",
+                    "rpc": "https://site1.moralis-nodes.com/arbitrum-sepolia/$apiKey"
                 },
                 {
                     "name": "Public Node",
@@ -473,6 +509,10 @@
                     "name": "Infura",
                     "rpc": "https://optimism-sepolia.infura.io/v3/$apiKey",
                     "wss": "wss://optimism-sepolia.infura.io/ws/v3/$apiKey"
+                },
+                {
+                    "name": "Moralis",
+                    "rpc": "https://site1.moralis-nodes.com/optimism-sepolia/$apiKey"
                 },
                 {
                     "name": "Public Node",
