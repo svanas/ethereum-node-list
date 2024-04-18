@@ -23,6 +23,11 @@
                     "rpc": "https://rpc.ankr.com/eth"
                 },
                 {
+                    "name": "Blink",
+                    "rpc": "https://eth.blinklabs.xyz/v1/$apiKey",
+                    "wss": "wss://eth.blinklabs.xyz/ws/v1/$apiKey"
+                },
+                {
                     "name": "Cloudflare",
                     "rpc": "https://cloudflare-eth.com/"
                 },
@@ -364,7 +369,7 @@
                 },
                 {
                     "name": "Arbitrum",
-                    "rpc": "https://arb1.arbitrum.io/rpc",
+                    "rpc": "https://arb1.arbitrum.io/rpc"
                 },
                 {
                     "name": "Ankr",
