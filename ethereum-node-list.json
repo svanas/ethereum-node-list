@@ -73,6 +73,10 @@
                 {
                     "name": "SecureRpc",
                     "rpc": "https://api.securerpc.com/v1"
+                },
+                {
+                    "name": "XRPC.CL",
+                    "rpc": "https://xrpc.cl/eth/$apiKey"
                 }
             ]
         },
@@ -123,6 +127,10 @@
                     "name": "Public Node",
                     "rpc": "https://optimism-rpc.publicnode.com",
                     "wss": "wss://optimism-rpc.publicnode.com"
+                },
+                {
+                    "name": "XRPC.CL",
+                    "rpc": "https://xrpc.cl/optimism/$apiKey"
                 }
             ]
         },
@@ -163,6 +171,10 @@
                     "name": "Public Node",
                     "rpc": "https://bsc-rpc.publicnode.com",
                     "wss": "wss://bsc-rpc.publicnode.com"
+                },
+                {
+                    "name": "XRPC.CL",
+                    "rpc": "https://xrpc.cl/bsc/$apiKey"
                 }
             ]
         },
@@ -269,6 +281,10 @@
                     "name": "Public Node",
                     "rpc": "https://polygon-bor-rpc.publicnode.com",
                     "wss": "wss://polygon-bor-rpc.publicnode.com"
+                },
+                {
+                    "name": "XRPC.CL",
+                    "rpc": "https://xrpc.cl/polygon/$apiKey"
                 }
             ]
         },
@@ -351,6 +367,10 @@
                     "name": "Public Node",
                     "rpc": "https://base-rpc.publicnode.com",
                     "wss": "wss://base-rpc.publicnode.com"
+                },
+                {
+                    "name": "XRPC.CL",
+                    "rpc": "https://xrpc.cl/base/$apiKey"
                 }
             ]
         },
@@ -396,6 +416,10 @@
                     "name": "Public Node",
                     "rpc": "https://arbitrum-one-rpc.publicnode.com",
                     "wss": "wss://arbitrum-one-rpc.publicnode.com"
+                },
+                {
+                    "name": "XRPC.CL",
+                    "rpc": "https://xrpc.cl/arbitrum/$apiKey"
                 }
             ]
         },
@@ -506,6 +530,10 @@
                     "name": "Public Node",
                     "rpc": "https://ethereum-sepolia-rpc.publicnode.com",
                     "wss": "wss://ethereum-sepolia-rpc.publicnode.com"
+                },
+                {
+                    "name": "XRPC.CL",
+                    "rpc": "https://xrpc.cl/sepolia/$apiKey"
                 }
             ]
         },
