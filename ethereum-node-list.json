@@ -49,6 +49,11 @@
                     "rpc": "https://eth.llamarpc.com"
                 },
                 {
+                    "name": "Lyftium",
+                    "rpc": "https://eth-mainnet-rpc.lyftium.com",
+                    "apiKeyRequired": true
+                },
+                {
                     "name": "MEV Blocker",
                     "rpc": "https://rpc.mevblocker.io"
                 },
